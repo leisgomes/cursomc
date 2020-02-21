@@ -1,0 +1,17 @@
+package com.leisgomes.cursomc.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.leisgomes.cursomc.domain.Categoria;
+import com.leisgomes.cursomc.repositories.CategoriaRepositoy;
+
+@Service
+public class CategoriaService {
+
+	@Autowired
+	private CategoriaRepositoy repo;
+	public Categoria buscar() {
+		
+	}
+}

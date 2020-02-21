@@ -1,0 +1,5 @@
+package com.leisgomes.cursomc.repositories;
+
+public class CategoriaRepositoy {
+
+}
