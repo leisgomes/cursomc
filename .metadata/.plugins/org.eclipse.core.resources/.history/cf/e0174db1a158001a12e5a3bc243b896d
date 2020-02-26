@@ -1,0 +1,5 @@
+package com.leisgomes.cursomc.services.exceptions;
+
+public class ObjectNotFoundException {
+
+}

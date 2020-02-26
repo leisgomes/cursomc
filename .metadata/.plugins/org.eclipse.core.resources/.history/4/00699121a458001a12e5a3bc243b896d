@@ -1,0 +1,5 @@
+package com.leisgomes.cursomc.resources.exceptions;
+
+public class ResourceExceptionHandler {
+
+}
