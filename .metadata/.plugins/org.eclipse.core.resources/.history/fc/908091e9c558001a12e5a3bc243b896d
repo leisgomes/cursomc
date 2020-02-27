@@ -1,0 +1,21 @@
+package com.leisgomes.cursomc.domain.enums;
+
+public enum TipoCliente {
+	PESSOAFISICA(0),
+	PESSOAJURIDICA;
+	
+	private int cod;
+	private String descricao;
+	
+	private TipoCliente(int cod,String descricao) {
+		this.cod = cod;
+		this.descricao = descricao;
+	}
+	
+	public int getCod() {
+		
+	}
+	public String getDescricao() {
+		
+	}
+}

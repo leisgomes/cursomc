@@ -1,0 +1,6 @@
+package com.leisgomes.cursomc.domain.enums;
+
+public enum TipoCliente {
+	PESSOAFISICA,
+	PESSOAJURIDICA;
+}
