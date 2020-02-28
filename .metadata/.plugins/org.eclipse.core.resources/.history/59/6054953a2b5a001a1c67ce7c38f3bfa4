@@ -1,0 +1,5 @@
+package com.leisgomes.cursomc.domain;
+
+public class ItemPedidoPK {
+
+}
