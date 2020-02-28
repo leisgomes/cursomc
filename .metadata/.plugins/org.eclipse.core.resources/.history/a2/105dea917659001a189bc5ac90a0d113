@@ -1,0 +1,19 @@
+package com.leisgomes.cursomc.domain;
+
+import com.leisgomes.cursomc.domain.enums.EstadoPagamento;
+
+public class PagamentoComCartao extends Pagamento {
+
+	private Integer numeroDeParcelas;
+	
+	public PagamentoComCartao() {
+		
+	}
+
+	public PagamentoComCartao(Integer id, EstadoPagamento tipo, Pedido pedido,Integer numeroDeParcelas) {
+		super(id, tipo, pedido);
+		this.numeroDeParcelas = numeroDeParcelas; 
+	}
+	
+	
+}

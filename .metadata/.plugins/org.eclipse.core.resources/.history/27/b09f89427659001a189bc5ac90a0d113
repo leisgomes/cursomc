@@ -1,0 +1,10 @@
+package com.leisgomes.cursomc.domain;
+
+public class PagamentoComCartao extends Pagamento {
+
+	private Integer numeroDeParcelas;
+	
+	public PagamentoComCartao() {
+		
+	}
+}

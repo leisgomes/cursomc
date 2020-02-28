@@ -1,0 +1,8 @@
+package com.leisgomes.cursomc.domain;
+
+public class Pedido {
+
+	private Integer id;
+	private Date instante;
+	
+}

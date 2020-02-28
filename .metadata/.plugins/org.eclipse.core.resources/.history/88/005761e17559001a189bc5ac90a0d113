@@ -1,0 +1,11 @@
+package com.leisgomes.cursomc.domain;
+
+import com.leisgomes.cursomc.domain.enums.EstadoPagamento;
+
+public class Pagamento {
+	
+	private Integer id;
+	private EstadoPagamento tipo;
+	
+	private Pedido pedido;
+}
